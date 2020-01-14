@@ -8,5 +8,9 @@ class Student < User
   def learn(stringOfKnowledge)
     @knowledge << stringOfKnowledge
   end
+  
+  def knowledge
+    @knowledge
+  end
 
 end
